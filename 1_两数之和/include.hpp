@@ -1,11 +1,12 @@
 #include<iostream>
-#include <vector>  // 包含 vector 头文件
-#include <unordered_map>  // 包含 unordered_map 头文件
+
+#include <vector>  
+#include <unordered_map>  
 #include<algorithm>
 
 #ifndef WAY1_H
 #define WAY1_H
-
+//哈希表
 namespace way1 {
     class Solution {
     public:
@@ -13,7 +14,7 @@ namespace way1 {
     };
 }
 #endif // way1.cpp
-
+//暴力枚举
 #ifndef WAY2_H
 #define WAY2_H
 
@@ -23,16 +24,16 @@ namespace way2 {
         std::vector<int> twoSum(std::vector<int>& nums, int target);
     };
 }
-#endif
+#endif // way2.cpp
 
 #ifndef WAY3_H
 #define WAY3_H
-
+//双指针
 namespace way3 {
     class Solution {
     public:
         std::vector<int> twoSum(std::vector<int>& nums, int target);
     };
 }
-#endif
+#endif // way3.cpp
 

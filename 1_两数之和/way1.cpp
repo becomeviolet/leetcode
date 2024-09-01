@@ -2,7 +2,7 @@
 
 
 
-// 函数实现
+// 哈希表
 namespace way1 {
     std::vector<int> Solution::twoSum(std::vector<int>& nums, int target) {
         std::unordered_map<int, int> num_map;

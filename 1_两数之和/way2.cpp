@@ -1,5 +1,5 @@
 #include"include.hpp"
-
+//±©Á¦Ã¶¾Ù
 namespace way2 {
     std::vector<int> Solution::twoSum(std::vector<int>& nums, int target) {
         for (int i = 0; i < nums.size(); ++i) {

@@ -1,5 +1,5 @@
 #include"include.hpp"
-
+//双指针
 namespace way3 {
     std::vector<int> Solution::twoSum(std::vector<int>& nums, int target) {
         std::vector<std::pair<int, int>> numWithIndex; // 用于存储数值及其原始索引
