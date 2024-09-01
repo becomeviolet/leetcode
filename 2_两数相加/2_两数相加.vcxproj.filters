@@ -21,39 +21,15 @@
     <ClCompile Include="way1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="way2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="way3.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="testcase.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="baseclass.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="definition.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="std.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="way1.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="way2.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="way3.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="testcase.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="baseclass.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

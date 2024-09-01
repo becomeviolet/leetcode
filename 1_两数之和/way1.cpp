@@ -1,10 +1,7 @@
 #include"include.hpp"
-
-
-
 // ¹þÏ£±í
 namespace way1 {
-    std::vector<int> Solution::twoSum(std::vector<int>& nums, int target) {
+    std::vector<int> Solution::twoSum(std::vector<int>& nums, int target)  {
         std::unordered_map<int, int> num_map;
         for (int i = 0; i < nums.size(); ++i) {
             int complement = target - nums[i];
