@@ -8,7 +8,7 @@ std::vector<TestCase> testCases = {
        TestCase({3, 2, 4}, 6, {1, 2}),      // 测试用例2
        TestCase({3, 3}, 6, {0, 1})          // 测试用例3
 };
-;
+
 std::vector<BaseSolution*> solutions = {
     new way1::Solution(),
     new way2::Solution(),
@@ -16,7 +16,6 @@ std::vector<BaseSolution*> solutions = {
 };
 
 int main() {
- 
 
     print();
     run();
@@ -37,12 +36,17 @@ void print(){
         std::cout << std::endl;
     }
 }
+
 void run() {
+    int count1 = 0;
+    int count2 = 0;
     for (const auto& test : testCases) {  // testCases 是 const
+        count1++ ;
         for (BaseSolution* solution : solutions) {
-            // 使用 const_cast 去掉 const 限定符
+            count2++;
             std::vector<int> result = solution->twoSum(const_cast<std::vector<int>&>(test.nums), test.target);
-            std::cout << "结果: ";
+            std::cout << "用例"<<count1<<" "<< "方法" << count2;
+            std::cout << " 结果: ";
             for (int num : result) {
                 std::cout << num << " ";
             }

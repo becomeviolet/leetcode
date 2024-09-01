@@ -1,8 +1,5 @@
-// BaseSolution.h
 #ifndef BASECLASS_H
 #define BASECLASS_H
-
-#include <vector>
 
 class BaseSolution {
 public:
@@ -14,4 +11,4 @@ public:
     
 };
 
-#endif // BASESOLUTION_H
+#endif // baseclass.cpp
