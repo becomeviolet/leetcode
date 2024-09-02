@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="baseclass.cpp" />
+    <ClCompile Include="action.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="testcase.cpp" />
     <ClCompile Include="way1.cpp" />
@@ -135,6 +135,7 @@
     <ClCompile Include="way3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="action.hpp" />
     <ClInclude Include="baseclass.hpp" />
     <ClInclude Include="include.hpp" />
     <ClInclude Include="std.hpp" />
